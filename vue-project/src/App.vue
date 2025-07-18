@@ -1,8 +1,14 @@
 <script setup>
+import { ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import DialogComp from './components/DialogComp.vue'
 import data from './data/data.js'
+
+const arr = ref(data)
+const randomItem = () => {
+  arr.value.sort(() => Math.random() - 0.5)
+}
 </script>
 
 <template>
@@ -16,7 +22,8 @@ import data from './data/data.js'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
-      <div v-for="(group, index) in data" :key="index">
+      <v-btn text="隨機排列資料" variant="flat" @click="randomItem" color="primary"></v-btn>
+      <div v-for="(group, index) in arr" :key="index">
         <h3>{{ group.title }}</h3>
         <DialogComp
           v-for="(item, cindex) in group.items"
