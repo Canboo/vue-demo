@@ -1,0 +1,64 @@
+const data = [
+  {
+    title: '台灣明星111111',
+    items: [
+      { name: '林志玲', description: '知名模特兒與演員，優雅知性代表' },
+      { name: '周杰倫', description: '亞洲流行音樂天王，擅長混搭多種音樂風格' },
+      { name: '蔡依林', description: '流行天后，風格多變且舞台魅力十足' },
+      { name: '吳宗憲', description: '資深綜藝主持人與歌手，以幽默風趣著稱' },
+      { name: '羅志祥', description: '歌手與主持人，舞蹈實力與綜藝感兼具' },
+      { name: '楊丞琳', description: '從偶像劇起家的全方位藝人' },
+      { name: '王力宏', description: '創作型歌手，融合中西音樂文化' },
+      { name: '柯佳嬿', description: '實力派演員，以戲劇作品打動人心' },
+      { name: '吳慷仁', description: '金馬獎影帝，擅長詮釋深層角色' },
+      { name: '陳妍希', description: '甜美系女星，以青春形象著稱' },
+    ],
+  },
+  {
+    title: '台灣地點',
+    items: [
+      { name: '台北市', description: '台灣首都，政治與經濟中心' },
+      { name: '新北市', description: '台灣人口最多的城市，環繞台北市' },
+      { name: '桃園市', description: '國際機場所在地，發展快速' },
+      { name: '台中市', description: '中部大城，交通與產業重鎮' },
+      { name: '台南市', description: '歷史古都，文化與美食豐富' },
+      { name: '高雄市', description: '南部最大城市，港口與工業重地' },
+      { name: '基隆市', description: '北部港口城市，靠近台北' },
+      { name: '花蓮縣', description: '東部觀光重鎮，擁有太魯閣等自然景觀' },
+      { name: '宜蘭縣', description: '東北部城市，風景秀麗、適合旅遊' },
+      { name: '屏東縣', description: '南台灣熱帶氣候，墾丁觀光勝地' },
+    ],
+  },
+  {
+    title: '台灣美食',
+    items: [
+      { name: '牛肉麵', description: '台灣經典麵食，湯頭濃郁' },
+      { name: '珍珠奶茶', description: '台灣代表性飲品，口感Q彈' },
+      { name: '鹽酥雞', description: '夜市小吃，外酥內嫩' },
+      { name: '蚵仔煎', description: '海鮮煎餅，口感獨特' },
+      { name: '滷肉飯', description: '台灣家常菜，香氣四溢' },
+      { name: '臭豆腐', description: '獨特風味小吃，外酥內軟' },
+      { name: '芒果冰', description: '夏季消暑甜品，清涼解渴' },
+      { name: '花生捲冰淇淋', description: '創意甜點，口感豐富' },
+      { name: '肉圓', description: '傳統小吃，皮薄餡多' },
+      { name: '大腸包小腸', description: '獨特的台灣小吃，香辣可口' },
+    ],
+  },
+  {
+    title: '台灣景點',
+    items: [
+      { name: '台北101', description: '台北地標，曾為世界最高樓' },
+      { name: '故宮博物院', description: '收藏豐富的中國文物' },
+      { name: '日月潭', description: '台灣最大的湖泊，風景如畫' },
+      { name: '阿里山', description: '著名的山脈，日出與雲海美景' },
+      { name: '太魯閣國家公園', description: '壯麗的峽谷景觀，適合健行' },
+      { name: '墾丁國家公園', description: '南台灣的海洋公園，擁有美麗沙灘' },
+      { name: '九份老街', description: '懷舊山城，擁有美麗的海景' },
+      { name: '台南安平古堡', description: '歷史悠久的古蹟，見證台灣歷史' },
+      { name: '花蓮太魯閣', description: '東部的自然奇觀，峽谷與瀑布' },
+      { name: '屏東墾丁', description: '熱帶海灘，適合潛水與衝浪' },
+    ],
+  },
+]
+
+export default data
