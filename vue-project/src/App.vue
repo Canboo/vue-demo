@@ -9,6 +9,14 @@ const arr = ref(data)
 const randomItem = () => {
   arr.value.sort(() => Math.random() - 0.5)
 }
+
+import axios from 'axios'
+const posts = ref([])
+const loadData = async () => {
+  const response = await axios.get('https://jsonplaceholder.typicode.com/posts')
+  // 隨機從 posts 中選擇 10 筆資料
+  posts.value = response.data.sort(() => 0.5 - Math.random()).slice(0, 3)
+}
 </script>
 
 <template>
@@ -31,6 +39,10 @@ const randomItem = () => {
           :btnText="item.name"
           :description="item.description"
         />
+      </div>
+      <div>
+        <v-btn text="載入資料" variant="flat" @click="loadData" color="primary"></v-btn>
+        <v-data-table :items="posts"></v-data-table>
       </div>
     </div>
   </header>
