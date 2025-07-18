@@ -32,9 +32,6 @@ import data from './data/data.js'
 </template>
 
 <style scoped>
-.bg {
-  height: 100px;
-}
 header {
   line-height: 1.5;
   max-height: 100vh;

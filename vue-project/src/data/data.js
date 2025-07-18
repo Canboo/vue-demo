@@ -1,6 +1,6 @@
 const data = [
   {
-    title: '台灣明星111111',
+    title: '台灣明星',
     items: [
       { name: '林志玲', description: '知名模特兒與演員，優雅知性代表' },
       { name: '周杰倫', description: '亞洲流行音樂天王，擅長混搭多種音樂風格' },
@@ -57,6 +57,21 @@ const data = [
       { name: '台南安平古堡', description: '歷史悠久的古蹟，見證台灣歷史' },
       { name: '花蓮太魯閣', description: '東部的自然奇觀，峽谷與瀑布' },
       { name: '屏東墾丁', description: '熱帶海灘，適合潛水與衝浪' },
+    ],
+  },
+  {
+    title: '國家',
+    items: [
+      { name: '美國', description: '擁有多元文化和廣闊土地的國家' },
+      { name: '加拿大', description: '以自然風光聞名，擁有廣大的森林和湖泊' },
+      { name: '英國', description: '歷史悠久的歐洲國家，文化藝術發達' },
+      { name: '法國', description: '浪漫之都，擁有世界著名的美食和時尚' },
+      { name: '德國', description: '工業強國，以精密的工程技術著稱' },
+      { name: '日本', description: '科技先進，文化傳統與現代融合' },
+      { name: '韓國', description: '流行文化和科技產業蓬勃發展' },
+      { name: '澳洲', description: '擁有獨特動植物和自然景觀的國家' },
+      { name: '紐西蘭', description: '以壯麗的自然風光和毛利文化聞名' },
+      { name: '新加坡', description: '東南亞的金融中心，以潔淨和效率著稱' },
     ],
   },
 ]
